@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  server.js"
+  },
+  "author": "Amitav Pusty",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "npm": "^10.9.0",
+    "sequelize": "^6.37.4",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.2"
+  }
+}
